@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Color Guessing Game</title>
+  <!-- External Packages -->
+  <link rel="stylesheet" href="vendors/css/038 Grid.css">
+  <link rel="stylesheet" href="vendors/fonts/css/font-awesome.min.css">
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="resources/css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="main-header">
+    <div class="shadow">
+      <div class="hero-text">
+        <div class="row">
+          <h1>Color Guessing Game</h1>
+        </div>
+        <div class="row">
+          <div class="col span-1-of-2 score-label">
+            Score: <span id = "score">12</span>
+          </div>
+          <div class="col span-1of-2 game-controls">
+            <button class="btn btn-new"> <i class="fa fa-plus-circle" aria-hidden="true"></i> New Game</button>
+            <button class="btn btn-hard"><i class="fa fa-cog" aria-hidden="true"></i> Hard</button>
+            <button class="btn btn-easy"><i class="fa fa-bolt" aria-hidden="true"></i>Easy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Color Code for Guessing -->
+  <section class="color-code">
+    <div class="row guess-color-code">
+      <!-- <div class="color-code-for-guessing">
+        RGB (120, 130, 140)
+      </div> -->
+    </div>
+  </section>
+  <!-- Colors Grid -->
+  <section class="colors-grid">
+    <div class="row" id = "colors-grid-parrent">
+      <!-- <div class="col span-1-of-3 box"></div>
+      <div class="col span-1-of-3 box"></div>
+      <div class="col span-1-of-3 box"></div>
+      <div class="col span-1-of-3 box"></div>
+      <div class="col span-1-of-3 box"></div>
+      <div class="col span-1-of-3 box"></div> -->
+    </div>
+  </section>
+  <!-- External Packages -->
+  <script src="vendors/js/html5shiv.js"></script>
+  <script src="vendors/js/respond.js"></script>
+  <script src="vendors/js/selectivizr-min.js"></script>
+  <!-- Custom Scripts -->
+  <script src="resources/js/script.js"></script>
+</body>
+</html>
